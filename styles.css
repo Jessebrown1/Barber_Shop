@@ -1,0 +1,34 @@
+iframe {
+    width: 100%;
+    max-width: 800px; /* Adjust based on your design */
+    height: 900px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;  /* Centers it horizontally */
+    align-items: center;      /* Centers it vertically */
+    min-height: 100vh;        /* Ensures it takes up full height */
+    background: white;        /* Keeps the form background clean */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.google-form-container {
+    background-color: #fff;  /* White Background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.google-form-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
